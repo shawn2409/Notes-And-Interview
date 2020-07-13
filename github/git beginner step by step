@@ -1,3 +1,25 @@
 https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/
 
 https://readwrite.com/2013/10/02/github-for-beginners-part-2/
+
+
+#go to project folder, not workspace folder
+1.git init
+
+#setup remote repo url as origin to local repo
+2.git remote add origin "url"
+
+#add all file or single file
+3.git add * or git add filename
+
+#commit with message
+4.git commit -m 'adding files'
+
+#first push needs to setp upstream as master to url origin
+5.git push --set-upstream origin master
+
+some help command
+git status
+#create branch develop or master
+git checkout branch
+git branch

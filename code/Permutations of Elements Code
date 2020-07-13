@@ -1,0 +1,36 @@
+package com.test;
+
+//Problem Statement:
+//Input: A1= [1,2,3] A2= [a,b,c,d]
+//Implement in any language ( js, java, python, shell script ).
+//Permutations of elements from two arrays:
+// 
+//Expected Output: [[1,a],[1,b],[1,c],[1,d], [2,a],[2,b],[2,c],[2,d], [3,a],[3,b],[3,c],[3,d]]
+
+public class ArrayPrint {
+
+
+		  public static void printRow(int[] row) {
+		        for (int i : row) {
+		            System.out.print(i);
+		            System.out.print("\t");
+		        }
+		        System.out.println();
+		    }
+
+		    public static void main(String[] args) {
+		        int twoDm[][]= new int[3][3];
+		        int i,j,k=1;
+
+		        for(i=0;i<3;i++) {
+		            for(j=0;j<3;j++) {
+		                twoDm[i][j]=k;
+		                k++;
+		            }
+		        }
+
+		        for(int[] row : twoDm) {
+		            printRow(row);
+		        }
+		    }
+		}

@@ -1,0 +1,51 @@
+class JBT {
+
+JBT() {
+	this("JBT");
+	System.out.println("Inside Constructor without parameter");
+}
+
+JBT(String str) {
+	System.out
+			.println("Inside Constructor with String parameter as " + str);
+}
+
+public static void main(String[] args) {
+	JBT obj = new JBT();
+}
+
+
+=====================
+Overloading
+**
+overloading can not do return type or static , only method name and parameter has to be same no matter what, any type of datatype change on method name or have static will give an error
+
+class Base
+{
+void method(int a)
+{
+System.out.println("Base class method called with integer a = "+a);
+}
+
+void method(double d)  
+{  
+    System.out.println("Base class method called with double d ="+d);  
+}  
+}
+
+class Derived extends Base
+{
+@Override
+void method(double d)
+{
+System.out.println("Derived class method called with double d ="+d);
+}
+}
+
+public class Main
+{
+public static void main(String[] args)
+{
+new Derived().method(10);
+}
+}

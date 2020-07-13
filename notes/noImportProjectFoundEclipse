@@ -1,0 +1,13 @@
+no projects found when import in eclipse
+	
+-Hence you can do this instead:
+
+Goto File > New > Project
+
+Select the type of project, click Next
+
+Uncheck Use default location
+
+Click on Browse to navigate to your source folder, or type in the path to your source
+
+Click Finish

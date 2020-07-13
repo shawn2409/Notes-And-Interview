@@ -1,0 +1,10 @@
+local branch
+	- right click project -> team -> switch to -> create new branch
+	- source from which branch to copy, ex: master and branch name
+
+Remote branch
+	- right click project -> team -> remote -> push
+		- Customr URI
+		- copy repository url or master url if repository url not there into uri and it should auto fill up, 
+			- provide github username and passworkd. 
+			- repository urls are ex: workspace urls copy from github, and under workspace has branches, ex: master, developer 

@@ -1,0 +1,124 @@
+<ng-content>
+They are used to create configurable components. This means the components can be configured depending on the needs of its user. This is well known as Content Projection. Components that are used in published libraries make use of <ng-content> to make themselves configurable.
+
+==============
+
+Super
+Created by Shawn Chowdhury
+Feb 24, 2020
+What is super in java?
+The super keyword in Java is a reference variable that is used to refer to the immediate parent class object. Whenever you create the instance of the subclass, an instance of the parent class is created implicitly which is referred by super reference variable. The super() is called in the class constructor implicitly by the compiler if there is no super or this.
+
+class Animal{
+Animal(){System.out.println("animal is created");}
+}
+class Dog extends Animal{
+Dog(){
+System.out.println("dog is created");
+}
+}
+class TestSuper4{
+public static void main(String args[]){
+Dog d=new Dog();
+}
+}
+
+=========================
+
+Java Persistence
+Created by Shawn Chowdhury
+Feb 24, 2020
+Java Persistence/What is Java persistence?
+< Java Persistence
+Jump to navigationJump to search
+Persistence, in computer science, is a noun describing data that outlives the process that created it. Java persistence could be defined as storing anything to any level of persistence using the Java programming language, but obviously this would be too broad a definition to cover in a single book. That is why this book is more focused on storing Java objects to relational databases. In particular using the Java Persistence API (JPA).
+
+There are many ways to make data persist in Java, including (to name a few): JDBC, serialization, file IO, JCA, object databases, and XML databases. However, the majority of data is persisted in databases, specifically relational databases. Most things that you do on a computer or web site that involve storing data, involve accessing a relational database. Relational databases are the standard mode of persistent storage for most industries, from banking to manufacturing.
+
+There are many things that can be stored in databases with Java. Java data includes strings, numbers, date and byte arrays, images, XML, and Java objects. Many Java applications use Java objects to model their application data. Because Java is an Object Oriented language, storing Java objects is a natural and common approach to persisting data from Java.
+
+=========
+
+Java Beans
+Properties of JavaBeans
+
+A JavaBean is a Java object that satisfies certain programming conventions:
+
+The JavaBean class must implement either Serializable or Externalizable
+
+The JavaBean class must have a no-arg constructor
+
+All JavaBean properties must have public setter and getter methods
+
+All JavaBean instance variables should be private
+
+Example of JavaBeans
+
+@Entity
+public class Employee implements Serializable{
+
+@Id
+private int id;
+private String name;
+private int salary;
+
+public Employee() {}
+
+public Employee(String name, int salary) {
+this.name = name;
+this.salary = salary;
+}
+public int getId() {
+return id;
+}
+public void setId( int id ) {
+this.id = id;
+}
+public String getName() {
+return name;
+}
+public void setName( String name ) {
+this.name = name;
+}
+public int getSalary() {
+return salary;
+}
+public void setSalary( int salary ) {
+this.salary = salary;
+}
+}
+=============================================
+
+Difference between preemptive scheduling and time slicing
+
+Preemptive scheduling: The highest priority task executes until it enters
+the waiting or dead states or a higher priority task comes into existence.
+
+Time slicing: A task executes for a predefined slice of time and then reenters
+the pool of ready tasks. The scheduler then determines which task should execute
+next, based on priority and other factors.
+
+========================================
+Static 
+what is static - 
+a static member is a member of a class that isn’t associated with an instance of a class. Instead, the member belongs to the class itself. As a result, you can access the static member without first creating a class instance.
+
+What is the static variable?
+The static variable is used to refer to the common property of all objects (that is not unique for each object), e.g., The company name of employees, college name of students, etc. Static variable gets memory only once in the class area at the time of class loading. Using a static variable makes your program more memory efficient (it saves memory). Static variable belongs to the class rather than the object.
+
+What is the static method?
+A static method belongs to the class rather than the object.
+There is no need to create the object to call the static methods.
+A static method can access and change the value of the static variable.
+
+===========
+MultiThreading
+
+
+Join Method - Multithreading - Thread
+Join method in Java allows one thread to wait until another thread completes its execution. In simpler words, it means it waits for the other thread to die.
+
+Deadlock - when 2 or more threads trying to get same resources and they are locked together, can not unlock it calls dead lock
+To release deadlock , run cmd command and collecting the Thread Dump, if there any dead lock then message will appear on cmd
+
+

@@ -1,0 +1,28 @@
+Mac - Terminal Notes - Commands
+
+cd /Volumes/New\ Volume. = external hard drive location
+find . -name "*Gold*" -print      == find substring of files in directory and subdirectory
+Pwd - path find of current direcotry
+
+
+Command +C to stop running command
+
+//move files and folders
+mv -v ~/Documents/Music2/* ~/Downloads  = to move all files including if there sub directories
+
+mv -v ~/Documents/Music2/*.txt ~/Downloads  = to move only file types
+
+mv -v ~/Documents/Music2/**/*.txt ~/Downloads == move files from subdirectory inside directory, only check one directory but use ** for extra subdirectory 
+Example
+mv -v ~/Documents/Music2/**/**/*.txt ~/Downloads
+
+mv -v ~/Music/**/**/*.mp3 ~/Documents/Music2
+
+find . -name "*.mp3" -print   == find all mp3 inside directory and subdirectory  
+
+
+//empty files and folder
+find . -type d -empty ==print directory inside directory for empty 
+
+//cursor
+Hold Option  - key on Mac - to put cursor anywhere on Mac command 

@@ -1,0 +1,2 @@
+Maven
+If there is pom error - right click - maven -> update project 

@@ -1,0 +1,73 @@
+differece between homegeneous and hetrogeneous
+
+Arrays have a runtime check on the type of the added element. That is, if a new element that is not of the same type is added, an ArrayStoreException is thrown at runtime. That's why they are considered as "homegeneous".
+This is not true for ArrayLists (Lists in general). Due to type erasure at runtime, it can practically hold any object.
+The following throws an exception when running:
+Object[] array = new String[3];
+array[0] = "a";
+array[1] = 1;   // throws java.lang.ArrayStoreException
+unlike the following which compiles and runs without problem (although with a compiler warning as it doesn't properly use generics):
+ArrayList list = new ArrayList<String>();
+list.add("a");
+list.add(1);    // OK
+list.add(new Object());  // OK
+
+site to check 
+https://stackoverflow.com/questions/36700490/what-does-it-mean-that-java-arrays-are-homogeneous-but-arraylists-are-not
+===================================================================
+
+Good example to study 
+Legacy Class and interface 
+What Is legacy class
+https://www.studytonight.com/java/legacy-classes-and-interface.php
+
+
+===================================================================
+
+Generics in Java
+The Java Generics programming is introduced in J2SE 5 to deal with type-safe objects. It makes the code stable by detecting the bugs at compile time.
+https://www.javatpoint.com/generics-in-java
+Generics checks
+There are mainly 3 advantages of generics. They are as follows:
+1) Type-safety: We can hold only a single type of objects in generics. It doesn?t allow to store other objects.
+2) Type casting is not required: There is no need to typecast the object.
+3) Compile-Time Checking: It is checked at compile time so problem will not occur at runtime. The good programming strategy says it is far better to handle the problem at compile time than runtime.
+
+==========================================================
+Difference between Stack and Heap memory in Java
+
+The main difference between heap and stack is that 
+stack memory is used to store local variables and method function 
+heap memory is used to store objects in Java. No matter, where the object is created in code e.g. as a member variable, local variable or class variable,  they are always created inside heap space in Java.
+
+Each Thread in Java has their own stack which can be specified using -Xss JVM parameter, similarly, you can also specify heap size of Java program using JVM option -Xms and -Xmx where -Xms is starting size of the heap and -Xmx is a maximum size of java heap. to learn more about JVM options see my post 10 JVM option Java programmer should know.
+
+If there is no memory left in the stack for storing function call or local variable, JVM will throw java.lang.StackOverFlowError, while if there is no more heap space for creating an object, JVM will throw java.lang.OutOfMemoryError: Java Heap Space. Read more about how to deal with java.lang.OutOfMemoryError  in my post 2 ways to solve OutOfMemoryError in Java.
+
+If you are using Recursion, on which method calls itself, You can quickly fill up stack memory. Another difference between stack and heap is that size of stack memory is a lot lesser than the size of  heap memory in Java.
+
+Variables stored in stacks are only visible to the owner Thread while objects created in the heap are visible to all thread. In other words, stack memory is kind of private memory of Java Threads while heap memory is shared among all threads.
+
+
+Stack Memory in Java
+
+Stack Memory in Java is used for static memory allocation and the execution of a thread. It contains primitive values that are specific to a method and references to objects that are in a heap, referred from the method.
+
+Key Features of Stack Memory-
+Apart from what we have discussed so far, following are some other features of stack memory:
+It grows and shrinks as new methods are called and returned respectively
+Variables inside stack exist only as long as the method that created them is running
+It’s automatically allocated and deallocated when method finishes execution
+If this memory is full, Java throws java.lang.StackOverFlowError
+Access to this memory is fast when compared to heap memory
+This memory is threadsafe as each thread operates in its own stack
+
+Heap Space in Java
+Heap space in Java is used for dynamic memory allocation for Java objects and JRE classes at the runtime. New objects are always created in heap space and the references to this objects are stored in stack memory.
+These objects have global access and can be accessed from anywhere in the application.
+Key Features -
+t’s accessed via complex memory management techniques that include Young Generation, Old or Tenured Generation, and Permanent Generation
+If heap space is full, Java throws java.lang.OutOfMemoryError
+Access to this memory is relatively slower than stack memory
+This memory, in contrast to stack, isn’t automatically deallocated. It needs Garbage Collector to free up unused objects so as to keep the efficiency of the memory usage
+Unlike stack, a heap isn’t threadsafe and needs to be guarded by properly synchronizing the code

@@ -1,0 +1,19 @@
+ PUT vs POST in REST WebService 
+As I said, even though both PUT and POST can be used to create and update an entity, POST is usually preferred for creating and PUT is preferred for updating an existing entity.
+
+For example, to create a new Order you should use:
+
+POST /orders
+
+and to update an existing order, you should use
+
+PUT /orders/13892
+
+which means modify the order with OrderId 13892
+
+If you execute POST request multiple times, it will end up create that many orders, but when you execute PUT it will always produce the same result because of its idempotent. You should also remember that both PUT and POST are unsafe methods. Safe methods in HTTP do not modify the resource in the server e..g GET or HEAD, while Idempotent HTTP methods return same result irrespective of how many times you call them.
+
+
+Idempotency is an important thing while building a fault-tolerant RESTful API. Idempotency is also the reason of why you should use PUT over POST to update a resource in REST. For example, suppose a client wants to update a resource through POST. Since POST is not an idempotent method, calling it multiple times may result in incorrect updates.
+
+Read more: https://javarevisited.blogspot.com/2016/10/difference-between-put-and-post-in-restful-web-service.html#ixzz6H9LEip00

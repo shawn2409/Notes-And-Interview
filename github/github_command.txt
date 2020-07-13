@@ -1,0 +1,47 @@
+**show current branch
+git branch
+git branch --show current
+
+Add remote url 
+The git remote add command takes two arguments:
+* A remote name, for example, origin
+* A remote URL, for example, https://github.com/user/repo.git
+For example:
+$ git remote add origin https://github.com/user/repo.git
+# Set a new remote
+
+$ git remote -v
+# Verify new remote
+> origin  https://github.com/user/repo.git (fetch)
+> origin  https://github.com/user/repo.git (push)
+
+#add all file or add individual file
+#git add * or git add file.name
+
+
+#undo commit
+Git Reset
+
+Git remove or reset url 
+git remote -v
+# View existing remotes
+# origin  https://github.com/user/repo.git (fetch)
+# origin  https://github.com/user/repo.git (push)
+
+git remote set-url origin https://github.com/user/repo2.git
+# Change the 'origin' remote's URL
+
+git remote -v
+# Verify new remote URL
+# origin  https://github.com/user/repo2.git (fetch)
+# origin  https://github.com/user/repo2.git (push)
+
+
+git: updates were rejected because the remote contains work that you do not have locally
+git push -f origin master  =-f force 
+It over rides the repo if not pull first and migrate
+
+=====
+
+Set up remote repo then pull first before commit and push
+

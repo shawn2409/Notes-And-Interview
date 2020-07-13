@@ -1,0 +1,8 @@
+Editor does not contain a main type in Eclipse 
+ -Problem is that your folder is not identified as a Source folder.
+
+Right click on the project folder -> Properties
+Choose 'Java Build Path'
+Click on 'Sources' tab on top
+Click on 'Add Folder' on the right panel
+Select your folders and apply

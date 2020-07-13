@@ -1,0 +1,22 @@
+Spring boot database steps
+
+Pom.xml
+
+Dependencies
+	spring boot data spa
+	mysql connector 
+
+application.properties or yml properties
+	configure mysql connections
+		username, password, hibernate id generator 
+		hibernate ddl auto create
+
+
+Spring data JPA class - model class
+import javax.persistence.Id;
+import javax.persistence.Table; jpa, data of dependency in pom xml
+@entity
+Id generated value
+
+Repository class
+Where will have crud definicaiton 

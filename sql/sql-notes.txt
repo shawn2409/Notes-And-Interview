@@ -1,0 +1,33 @@
+sql-My sql terminal
+
+mysql -u root -p = to mysql command 
+\c to quit
+Control +c to quit running mysql 
+Exit = to exit
+
+
+If this is shows 
+-> after executing means incomplete command , put ;
+
+mysql> SHOW DATABASES
+    -> 
+==============
+1. create database sonoo;  
+2. use sonoo;  
+3. create table emp(id int(10),name varchar(40),age int(3));  
+
+
+================
+
+Sql queries 
+
+SELECT User, Host, plugin FROM mysql.user;
+
+update mysql.user SET Host= 'localhost' WHERE User = 'root';
+
+
+url=jdbc:mysql://localhost:3306/hybrisdb?characterEncoding=latin1&useConfigs=maxPerformance
+
+===
+Mysql  prefPane - stop server 
+Stop server so it will not slow Mac machine 

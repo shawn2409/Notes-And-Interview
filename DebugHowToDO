@@ -1,0 +1,38 @@
+/*Consider the following code with your current instruction pointer (the line that will be executed next, indicated by ->) at the f(x) line in g(), having been called by the g(2) line in main():*/
+
+public class Testprog {
+    static void f (int x) {
+        System.out.println ("num is " + (x+0)); // <- STEP INTO
+    }
+
+    static void g (int x) {
+     f(x); //
+        f(1); // <----------------------------------- STEP OVER
+    }
+
+    public static void main (String args[]) {
+        g(2);
+        g(3); // <----------------------------------- STEP OUT OF
+    }
+    
+	/*
+	 * If you were to step into at that point, you will move to the println() line
+	 * in f(), stepping into the function call.
+	 * 
+	 * If you were to step over at that point, you will move to the f(1) line in
+	 * g(), stepping over the function call.
+	 * 
+	 * Another useful feature of debuggers is the step out of or step return. In
+	 * that case, a step return will basically run you through the current function
+	 * until you go back up one level. In other words, it will step through f(x) and
+	 * f(1), then back out to the calling function to end up at g(3) in main().
+	 * 
+	 * Eclipse (at least Europa, which is the only one I have handy at the moment)
+	 * uses F5 for step into, F6 for step over and F7 for step return.
+	 */
+}
+
+==========================================================================================================================================
+
+Debug - hover view
+Mac - Command, shift d or I will show value on variable 

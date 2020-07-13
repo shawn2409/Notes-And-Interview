@@ -1,0 +1,26 @@
+Array list notes
+
+
+
+Getter setters
+
+employee emp= new employee
+
+Datatype needs to be assigned in generic <> angle bracket to use for loops 
+While look does not need datatype generic assigned 
+
+Getters setters first
+
+
+	for (String i : aa) {
+			System.out.println(i);
+		}
+
+	for (int i = 0; i < aa.size(); i++) {
+			System.out.println(i);
+		}
+
+	Iterator ad = aa.iterator();
+		while (ad.hasNext()) {
+			System.out.println(ad.next());
+		}

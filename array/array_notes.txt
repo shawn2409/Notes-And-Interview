@@ -1,0 +1,6 @@
+Understand mechanism of find 2nd largest number 
+Use debug to understand how 2nd largest number is getting called but 
+Arays.sort() makes more is easy if not in order and can not print it out
+See example SecondLargestArray on github example on your project 
+int arr[] = { 14, 46, 47, 86, 92, 52, 48, 36, 66, 85 };
+Without arrays.sort() will not print thirdlargest number , understand doing debug why

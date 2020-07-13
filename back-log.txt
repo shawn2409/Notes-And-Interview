@@ -1,0 +1,17 @@
+What is process from coding to build testing deploy to production using Jenkins
+
+How integration testing work in Jenkins, unit testing in Jenkins 
+
+
+Monitoring and analyzing production tool
+Splunk
+
+
+======================================================================
+angular
+
+What is service in angular and how to utilize it 
+
+How to inject the service 
+
+What is covariant return type in java

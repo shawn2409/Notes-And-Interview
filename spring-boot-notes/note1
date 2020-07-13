@@ -1,0 +1,13 @@
+Bootstrap class - 
+ 
+@SpringBootApplication
+@ComponentScan(basePackages={"com.technicalkeeda"})
+public class Application {
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
+}
+=========
+github project for springboot rest api json - project sturecture format
+springbootcrudrestful-working-projectstructure
+

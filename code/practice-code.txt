@@ -1,0 +1,20 @@
+SET s= 
+
+
+
+abcddda bc cbbcaaaa cc
+
+Find number of substrings having the same letter repeating 3 times or more
+
+count++;
+
+for(int I=0;i<string.length;i++){
+
+If (string.length <2)
+
+Count++;
+
+}
+
+
+

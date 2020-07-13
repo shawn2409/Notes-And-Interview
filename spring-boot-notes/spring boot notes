@@ -1,0 +1,50 @@
+create spring boot app with eclipse sts 
+simple example how to create - with annotation or without annotation
+https://blog.netgloo.com/2014/05/18/very-basic-web-application-with-spring-mvc-spring-boot-and-eclipse-sts/
+
+=====
+main controller class of spring boot annotation to run package netgloo; main package to run application 
+import org.springframework.boot.SpringApplication;
+@SpringBootApplication
+public class SpringBootBasewebappApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootBasewebappApplication.class, args);
+	}
+}
+======== different package of controller class
+
+controller package with controller annotation
+//annotation controller with requestmapping and response with create http response with string 
+
+@Controller
+public class MainController {
+
+	@RequestMapping("/")
+	@ResponseBody
+	String index() {
+		return "hello worlda";
+	}
+}
+========= // restcontroller with @requestmapping , no responseboddy needed
+@restcontroller
+public class MainController {
+
+	@RequestMapping("/")
+	
+	String index() {
+		return "hello worlda";
+	}
+}
+=========// controler with requestmapping using html page created in resource, use top link how it used 
+//important with @restcontroller annotation, html page will not load, only with @controller annotation  
+package netgloo.controllers;
+@Controller
+public class MainController {
+
+  @RequestMapping("/")
+  public String index() {
+    return "hello.html";
+  }
+
+}

@@ -1,0 +1,6 @@
+Palindrome - a word, phrase, or sequence that reads the same backward as forward
+
+append() - It is used to add text at the end of the existence text. Here are a few of its forms:
+
+What is static context?
+A static method or, block belongs to the class and these will be loaded into the memory along with the class. You can invoke static methods without creating an object. ... But static contexts(methods and blocks) doesn't have any instance they belong to the class

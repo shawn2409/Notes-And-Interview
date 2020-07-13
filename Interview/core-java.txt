@@ -1,0 +1,19 @@
+Interview question 
+Difference between hash map and hash table
+
+What is the immutable custom class , how to create
+
+Does auto sub packge load when parent package
+No
+
+How the map internal works
+
+
+
+A collision occurs when a hash function returns same bucket location for two different keys. ... A collision will occur when two different keys have the same hashCode, which can happen because two unequal objects in Java can have the same hashCode.
+It can be avoided by having each bucket contain a linked list of elements that are hashed to that bucket. This is why a bad hash function can make lookup in hash tables very slow.
+
+**Map notes
+Non generic map can do iterator without declaring datatypes in map <>
+Generic instance must need to declare datatypes if do not want to use iterator and only use Enhencefor loop
+for(Map.Entry m: map.entrySet()).

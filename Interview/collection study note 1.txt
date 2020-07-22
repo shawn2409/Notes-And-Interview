@@ -1,0 +1,28 @@
+what is the diffrence between arraylist and linkedlist
+arraylist is dynamic and linkedlist doubly linked list
+arraylist is not effiecinet for manipulaiton because a lot 
+of shifting is required
+arraylist is better to store and fetch data
+
+arraylist is dyanicmai linkedlist is doublylinked list
+array is not good effireto for maniuputlaiotn
+
+whre inkedlin si good fomanuaptul 
+array si stoe and fetch linked is goo manuapatta
+
+itere is used for elemtov to move workd where list is used for 
+eleemt to go back and forws d
+iterator can use list list set que and list itere an list
+list and set
+list can have dupadfa set dcan dduit only eleva
+
+also olsgoin order where set do not in 
+
+hash set do not maintain order where tree set main order
+set has value erhere mak has key and value
+hashsmap has value and hash map entry key and for 
+hash set can use iter or but hashmap needto conert to set to use iteres
+
+hasmap do not ain in order wereh tree can main in roder ascending order
+hashmap and hashtable 
+

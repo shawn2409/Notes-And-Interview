@@ -1,0 +1,63 @@
+1) The main difference between heap and stack is that stack memory is used to store local variables and function call while heap memory is used to store objects in Java. No matter, where the object is created in code e.g. as a member variable, local variable or class variable,  they are always created inside heap space in Java.
+
+
+2) Each Thread in Java has their own stack which can be specified using -Xss JVM parameter, similarly, you can also specify heap size of Java program using JVM option -Xms and -Xmx where -Xms is starting size of the heap and -Xmx is a maximum size of java heap. to learn more about JVM options see my post 10 JVM option Java programmer should know.
+
+3) If there is no memory left in the stack for storing function call or local variable, JVM will throw java.lang.StackOverFlowError, while if there is no more heap space for creating an object, JVM will throw java.lang.OutOfMemoryError: Java Heap Space. Read more about how to deal with java.lang.OutOfMemoryError  in my post 2 ways to solve OutOfMemoryError in Java.
+
+
+4) If you are using Recursion, on which method calls itself, You can quickly
+
+ fill up stack memory. Another difference between stack and heap is that size of stack memory is a lot lesser than the size of  heap memory in Java.
+
+
+5) Variables stored in stacks are only visible to the owner Thread while objects created in the heap are visible to all thread. In other words, stack memory is kind of private memory of Java Threads while heap memory is shared among all threads.
+
+
+What is the difference between preemptive scheduling and time slicing?
+
+Preemptive scheduling: The highest priority task executes until it enters
+the waiting or dead states or a higher priority task comes into existence.
+
+Time slicing: A task executes for a predefined slice of time and then reenters
+the pool of ready tasks. The scheduler then determines which task should execute
+next, based on priority and other factors.
+
+
+build and deploy---
+
+deployed using alm tools, deployemnt automated by scheduling date setup and time, 
+
+maven build and deploy-
+maven build and deploy done on web applicaiton server like websphere,weblogic, apache tomcat and so on , after sucessfully completed the build by maven, it creates ear file so you can import that to webapplication server to run the web application
+
+
+
+stack and heap memory -
+
+Stack Memory in Java is used for static memory allocation and the execution of a thread.
+
+Key Features of Stack Memory-
+Apart from what we have discussed so far, following are some other features of stack memory:
+    It grows and shrinks as new methods are called and returned respectively
+    Variables inside stack exist only as long as the method that created them is running
+    It’s automatically allocated and deallocated when method finishes execution
+    If this memory is full, Java throws java.lang.StackOverFlowError
+    Access to this memory is fast when compared to heap memory
+    This memory is threadsafe as each thread operates in its own stack
+	
+Heap Space in Java
+Heap space in Java is used for dynamic memory allocation for Java objects and JRE classes at the runtime. New objects are always created in heap space and the references to this objects are stored in stack memory.
+These objects have global access and can be accessed from anywhere in the application.
+Key Features - 
+t’s accessed via complex memory management techniques that include Young Generation, Old or Tenured Generation, and Permanent Generation
+If heap space is full, Java throws java.lang.OutOfMemoryError
+Access to this memory is relatively slower than stack memory
+This memory, in contrast to stack, isn’t automatically deallocated. It needs Garbage Collector to free up unused objects so as to keep the efficiency of the memory usage
+Unlike stack, a heap isn’t threadsafe and needs to be guarded by properly synchronizing the code
+	
+
+
+
+	
+	

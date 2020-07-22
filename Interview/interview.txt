@@ -1,0 +1,44 @@
+Technologies - 
+
+Source control,
+GIT
+SVN
+Jenkins
+RTC (Rational Team Concert) - streams
+
+
+
+WebServices Server
+JMS
+
+API
+
+SOAP - simple object acess protocol
+JAX WS
+JAX RPC
+
+SOAP Framework - API
+Apache Axis
+Apache CSF
+
+
+
+REstfull- representation state transfer
+JAX RX
+
+REstfull- Framework - API
+Jersy
+RestEasy
+
+
+linux
+ - putty
+ - servers
+ 
+ web application
+ jsf
+ struts
+ 
+ enterprise application
+ ejb
+ spring

@@ -1,0 +1,12 @@
+A stateless session bean is a type of enterprise bean, which is normally used to perform independent operations. A stateless session bean as per its name does not have any associated client state, but it may preserve its instance state. EJB Container normally creates a pool of few stateless bean's objects and use these objects to process client's request. Because of pool, instance variable values are not guaranteed to be same across lookups/method calls.
+
+
+The stateless bean objects are pooled by the EJB container to service the request on demand.
+
+It can be accessed by one client at a time. In case of concurrent access, EJB container routes each request to different instance.
+
+
+EJB Pool
+v\EJB Pooling: Quick Overview
+
+    EJB instances are stored in a location known as the EJB Pool – this is nothing but an in-memory cache.

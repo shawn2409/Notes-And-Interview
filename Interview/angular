@@ -1,0 +1,68 @@
+When to use factory pattern
+
+The factory design pattern is used when we have a superclass with multiple sub-classes and based on input, we need to return one of the sub-class. This pattern takes out the responsibility of the instantiation of a class from the client program to the factory class.
+Good example explanation
+https://www.journaldev.com/1392/factory-design-pattern-in-java#:~:text=The%20factory%20design%20pattern%20is,program%20to%20the%20factory%20class.
+
+
+
+
+Facade Design Pattern is one of the Structural design patterns (such as Adapter pattern and Decorator pattern). Facade design pattern is used to help client applications to easily interact with the system.
+Suppose we have an application with set of interfaces to use MySql/Oracle database and to generate different types of reports, such as HTML report, PDF report etc.
+So we will have different set of interfaces to work with different types of database. Now a client application can use these interfaces to get the required database connection and generate reports.
+But when the complexity increases or the interface behavior names are confusing, client application will find it difficult to manage it.
+So we can apply Facade design pattern here and provide a wrapper interface on top of the existing interface to help client application.
+https://www.journaldev.com/1557/facade-design-pattern-in-java
+
+
+Singleton Pattern
+In Java the Singleton pattern will ensure that there is only one instance of a class is created in the Java Virtual Machine. It is used to provide global point of access to the object. In terms of practical use Singleton patterns are used in logging, caches, thread pools, configuration settings, device driver objects
+https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples
+why use spring boot
+how to setup docker to aws
+or github auto deploy Jenkins, docker aws server
+
+===============================
+javascript ==
+double equal and triple equal
+double equal = check data type but does not check value
+
+triable equal = strict equality
+check datatype and value
+
+=======================
+volatile keyword
+Volatile Keyword in Java
+Volatile keyword is used to modify the value of a variable by different threads. It is also used to make classes thread safe. It means that multiple threads can use a method and instance of the classes at the same time without any problem. The volatile keyword can be used either with primitive type or objects.
+https://www.javatpoint.com/volatile-keyword-in-java
+
+
+
+springboot - angular
+how springboot communicate with angular – suppose regiaster in angular and submit, how does data go to back end spring boot and how to handle it
+https://dzone.com/articles/angular-7-spring-boot-application-hello-world-exam
+map url to angular service and proxy config json
+proxy.config.json
+.
+
+Spring angular crud example
+https://www.devglan.com/spring-boot/spring-boot-angular-example
+
+
+
+Springboot pathvariable/ query param / path param
+
+
+https://developer.okta.com/blog/2018/08/22/basic-crud-angular-7-and-spring-boot-2
+
+how to achieve dependency injection
+by setters or constructor
+
+
+anuglaer component lifecycle
+
+
+how hibernate configuration works or process of hibernate
+look at complete example of hibernate
+
+ConcurrentHashMap

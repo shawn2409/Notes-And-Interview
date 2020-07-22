@@ -1,0 +1,24 @@
+singleton design pattern
+
+how to write threadsafe in singleton on java
+using synchronized method 
+ synchronized public static GFG getInstance(){}
+ 
+ what are the type of design pattern
+ 
+ creational design pattern
+ -singleton
+ -factory 
+ -abstract factory
+ -builder pattern
+ -prototype pattern
+ 
+ structural design pattern
+ -adapter pattern
+ -composite pattern
+ -proxy pattern
+ -flyweight pattern
+ -facade pattern
+ -bridge pattern
+ -decorator pattern
+ 

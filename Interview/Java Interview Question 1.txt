@@ -1,0 +1,41 @@
+
+object that creates for servlet config belongs to servlet and object that gets create for servlet context belongs to web application 
+
+
+why string is amutuable class
+Because Java uses the concept of the string literal. Suppose there are five reference variables, all refer to one object "sachin". If one reference variable changes the value of the object, it will be affected by all the reference variables. That is why string objects are immutable in java
+
+what is encapsulation and give example
+
+
+when to use abstraction and interface	
+
+understand the process of hibernate and spring configuration
+how hibernate configuration works, steps to complete the persist or store into database, from configuration , session open,persist or save and close session, hibernate configuration xml file 
+
+spring configuration- applicaiotn context, class instance invoke bean proerty by bean id from spring configuration xml file, configure spring xml file , intiliaze property variable in spring bean by create bean id,class, where variables calling from, so on, have complete understand of spring process
+
+
+
+hashmap internally
+
+
+hashcode()
+The hashCode() method returns a hash code value (an integer number).
+The hashCode() method returns the same integer number if two keys (by calling equals() method) are identical.
+However, it is possible that two hash code numbers can have different or the same keys.
+If two objects do not produce an equal result by using the equals() method, then the hashcode() method will provide the different integer result for both the objects.
+
+equal()
+The equals method is used to check whether two objects are the same or not. It needs to be overridden if we want to check the objects based on the property.
+For example, Employee is a class that has 3 data members: id, name, and salary. However, we want to check the equality of employee object by the salary. Then, we need to override the equals() method.
+
+collison
+Two different keys with the same hash value are known as hash-collision. Two separate entries will be kept in a single hash bucket to avoid the collision. 
+hashing collision (hashing collision means more than one key having the same hash value, thus assigned to the same bucket)
+
+Bucket term used here is actually an index of array, that array is called table in HashMap implementation. Thus table[0] is referred as bucket0, table[1] as bucket1 and so on.
+
+There are two ways to avoid hash-collision.
+Separate Chaining
+Open Addressing

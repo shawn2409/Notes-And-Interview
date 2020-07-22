@@ -1,0 +1,51 @@
+what is difference between comparable and comparator
+4 things to remember
+comparable provide only one sort sequence
+comparator provide multiple sort sequence 
+comparable used method name compareTo()
+comparator used method name compare
+comparable used package call java.lang
+comparator used package call java.util
+comparable interface if gets implteed of class 
+that it modifies
+but comparator class gets impleted then it does not modifes
+
+what is the advantage of property files
+if value gets change in property files then it does not need 
+recomplie, it easy to manage in applciaiton
+
+
+what is hasmap and hastable
+2 things to remember
+hashmap is not syncronized 
+hashtable is syncronized
+hashmap can have one null key and multiple null values
+where hashtable cannot have any null key or values
+
+what is the advantage of generic collection
+generic collection mean it does not need typecasting
+
+what is the dictionary class
+the dictionary class provides the capability to store key-value pairs
+
+what is difference between array and arraylist
+array is static where it has fixed length size 
+arraylist is dynamic variable legnth collection class 
+[how can you check the size of array and array list
+what is the difference between array and arraylist?
+array used attribute called .legth 
+arraylist used method called size
+array is mutlity dimentsiona
+where arraylist is one dietnison]
+
+how to desending order of arraylist?
+use collections.reverseOrder to reverse the order in desending
+
+how to reverse arraylist
+by using reverse method
+
+how to remove duplicate from arraylist?
+by converting into set will remove duplicate from arraylist
+
+what is the advantage of generic colleciton
+it does not need typecasting

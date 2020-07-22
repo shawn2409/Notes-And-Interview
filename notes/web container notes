@@ -1,0 +1,15 @@
+Generally,a program that accepts incoming HTTP connections is called a web server. In that case apache tomcat is a web server as it supports HTTP protocol and it is also a web container as it supports Java server pages (JSP)/servlet,Application programming interfaces(APIs) as well.
+
+Tomcat doesn’t include the typical features of a web server,where the apache manages the static data of the web pages,redirection etc whereas tomcat manages the web application.
+
+
+Tomcat is a web server. Web container is part of web server. You can run simple web applications using JSP and Servlet inside the web servers. Web containers are execute the JSP and Servlet files.
+
+
+Tomcat is a web server (Web server - Wikipedia) (can handle HTTP requests/responses) and web container (Web container - Wikipedia) (implements Java Servlet API (The Java Community Process(SM) Program), also called servlet container) in one. Some may call it an application server (Application server - Wikipedia), but it is definitely not an full fledged Java EE application server (it does not implement the whole Java EE API (Java(TM) EE 7 Specification APIs)).
+
+
+Sparks Law Firm
+8173340300
+
+The Hampton law firm

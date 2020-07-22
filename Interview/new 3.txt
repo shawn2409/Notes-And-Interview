@@ -1,0 +1,68 @@
+constant java
+Naming Standards for Java Constants
+Although these aren’t syntactical rules, they are widely used as accepted conventions.
+1.Java constants are normally declared in ALL CAPS.
+2.Underscores normally separate Words in Java constants.
+.
+
+[map 
+set no duplicate key and value]
+
+[remove duplicate keys and value
+for and while loop]
+
+[single map two class, id, name
+address separate class]
+
+[consturctor and setter all example]
+
+[create id and name address
+two class input and store in database
+with two class with one id each class
+name and address each table with id column]
+
+
+corejava
+list[question,store]
+
+list[question,answer,store]
+
+[forloop,while loop,logic,reverse, from middle]
+[arrays,logic,storing]
+
+=============================
+array
+
+normal for loop,i goes by index number, not elements, 
+
+if datatype use on method() outside parameter then instance or global variable or aggregate has-a class can use on return
+
+datatype method can use to create datatype object
+example
+public int apple();
+int a= apple.value();
+
+
+===
+note
+jdbc
+
+statement for update only="delete,update data"
+
+resultset="select query only for columns"
+
+preparedstatement for="insert query or find query"
+
+final can use in parameter inside contructor method
+
+====================================
+angular js note
+with string '' in directive use, integer dont need spcecial character in directive.
+ng-app do not initialize unless using for controller directive
+
+=============================
+spring
+setter and getters, look for access modifier
+consturctor property,name can not initialize in xml, only value to initialize, 
+==================
+

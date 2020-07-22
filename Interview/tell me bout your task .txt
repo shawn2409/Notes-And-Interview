@@ -1,0 +1,13 @@
+tell me about your tasks
+
+i have been developing application
+i develop application by implementing code, 
+i build dev environment,test environment and prod enviroment,
+i build the applicaiton and deploy to de enviroment in linux server
+from there i run my applicaiton through control m automation software,
+i schedule the job run applicaiton 2twice a day and i monitor for any failure
+if failure i trouble shooot and bring the job on schedule run
+
+i also build our database dev,test and prod.
+i run querys to generate data report and compare
+

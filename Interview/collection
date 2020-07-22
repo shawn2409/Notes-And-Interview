@@ -1,0 +1,85 @@
+Collection Interview
+
+what is difference between comparable and comparator
+
+	comparable provide only one sort sequence
+	comparator provide multiple sort sequence
+	comparable used method name compareTo()
+	comparator used method name compareTo
+	comparable used package call java.lang
+	comparator used package call java.util
+	comparable interface if gets implteed of class
+	that it modifies
+	but comparator class gets impleted then it does not modifes
+
+what is the advantage of property files
+if value gets change in property files then it does not need
+recomplie, it easy to manage in applciaiton
+
+what is hasmap and hastable
+2 things to remember
+hashmap is not syncronized
+hashtable is syncronized
+hashmap can have one null key and multiple null values
+where hashtable cannot have any null key or values
+
+what is the advantage of generic collection
+generic collection mean it does not need typecasting
+
+what is the dictionary class
+the dictionary class provides the capability to store key-value pairs
+
+what is difference between array and arraylist
+array is static where it has fixed length size
+arraylist is dynamic variable legnth collection class
+[how can you check the size of array and array list
+what is the difference between array and arraylist?
+array used attribute called .legth
+arraylist used method called size
+array is mutlity dimentsiona
+where arraylist is one dietnison]
+
+how to desending order of arraylist?
+use collections.reverseOrder to reverse the order in desending
+
+how to reverse arraylist
+by using reverse method
+
+how to remove duplicate from arraylist?
+by converting into set will remove duplicate from arraylist
+
+what is the advantage of generic colleciton
+it does not need typecasting
+
+
+Interview question
+
+Difference between hash map and hash table
+•	hashmap is not syncronized and hashtable is synchronized.
+•	hashmap can have one null key and multiple null values where hashtable cannot have any null key or values
+
+
+What is the immutable class , how to create custom immutable class
+Immutable class means that once an object is created, we cannot change its content. In Java, all the wrapper classes (like Integer, Boolean, Byte, Short) and String class is immutable. We can create our own immutable class as well by using final keyword on class.
+
+Does auto sub packge load when parent package
+No
+
+How the map internal works
+HashMap in Java works on hashing principles. It is a data structure which allows us to store object and retrieve it in constant time O(1) provided we know the key. In hashing, hash functions are used to link key and value in HashMap. Objects are stored by calling put(key, value) method of HashMap and retrieved by calling get(key) method. When we call put method, the hashcode() method of the key object is called so that the hash function of the map can find a bucket location to store value object, which is actually an index of the internal array, known as the table.
+
+Read more: https://javarevisited.blogspot.com/2011/02/how-hashmap-works-in-java.html#ixzz6StDMJLNc
+
+
+What is hash collision
+Two different keys with the same hash value is known as hash-collision. Two different entries will be kept in a single hash bucket to avoid the collision.
+
+
+
+A collision occurs when a hash function returns same bucket location for two different keys. ... A collision will occur when two different keys have the same hashCode, which can happen because two unequal objects in Java can have the same hashCode.
+It can be avoided by having each bucket contain a linked list of elements that are hashed to that bucket. This is why a bad hash function can make lookup in hash tables very slow.
+
+**Map notes
+Non generic map can do iterator without declaring datatypes in map <>
+Generic instance must need to declare datatypes if do not want to use iterator and only use Enhencefor loop
+for(Map.Entry m: map.entrySet()).

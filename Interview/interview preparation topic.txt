@@ -1,0 +1,66 @@
+Interview Preparation Topics - Feel free to add topics or questions for Interview I need to know to become expert giving answer
+
+* Design Pattern
+	Singleton (most important topic) - how it works, how to refresh object in Singleton
+	other design pattern like factory or DAO design pattern
+		
+Angular Router
+	what Angular Router and other important topics in Angular
+
+Jenkin CICD
+	How does it work
+	What is Docker
+	
+Git - Subversion
+	how git works
+	what are the brances on Git
+		
+Spring Boot
+	what is Spring Boot
+	How does it work
+	what are features in Spring Boot like Aquator or Thymeleaf
+
+Spring
+	what are some of the anotation in Spring
+	what is restController, param, query
+	
+Web Services
+	What's difference between Soap and Restfull
+	how does the endpoint work
+	how to pass arguments in web services and body
+	Json file 
+	
+
+Collection
+	How HashMap works, 
+	bucket in HashMap
+	correlation HashMap 
+	what is diffence between Hashtable and HashMap
+	collections.sort what it does 
+	
+String
+	why String is immutable 
+	
+MultiThread
+	what is thread and syncronization 
+	any other multithread question
+	
+	
+memory stack vs heap java
+	
+
+Exception Handling
+	Checked and unchecked
+
+
+Servlet
+	HttpSession
+	web.xml 
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,25 @@
+top quesiton 
+what is jar war and ear 
+
+
+
+java 8 features 
+forEach() method in Iterable interface
+default and static methods in Interfaces
+Functional Interfaces and Lambda Expressions
+Java Stream API for Bulk Data Operations on Collections
+Java Time API
+Collection API improvements
+Concurrency API improvements
+Java IO improvements
+Miscellaneous Core API improvements
+
+what is sql injection
+
+how do you see deadlock thread -
+-run code in cmd and see on thread dump, message will pop up for deadlock thread
+
+
+what is difference between servlet config and servlet context
+
+object that creates for servlet config belongs to servlet and object that gets create for servlet context belongs to web application 

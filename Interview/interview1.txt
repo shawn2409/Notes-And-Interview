@@ -1,0 +1,21 @@
+Study hibernate interview quesitons
+
+Persist - means to store or input, persistence
+
+http://www.java67.com/2016/02/top-20-hibernate-interview-questions.html
+
+
+Difference between First and Second Level Cache in Hibernate
+
+ 
+Hibernate framework is caching, which can drastically improve the performance of Java application's persistence layer if configured and used correctly. Hibernate provides caching at many levels e.g. first level cache at Session level, second level cache at the SessionFactory level, and query cache to cache frequently executed SQL queries. The first level cache minimizes database access for the same object. For example, if you call the get() method to access Employee object with id = 1 from one session, it will go the database and load the object into memory, but it will also cache the object in the first level cache.
+
+When you will call the get() method again for the same object from the same session, even after doing some updates on the object, it will return the object from the cache without accessing the database. You can confirm this from Hibernate's log file by observing how many queries are executed. This is also one of the frequently asked Hibernate Interview Questions, so it will not only help to improve the performance of your Java application but also help you to do well on your next interview.
+
+This session level cache greatly improves the performance of Java application by minimizing database roundtrips and executing less number of queries. For example, if an object is modified several times within the same transaction, then Hibernate will only generate one SQL UPDATE statement at the end of the transaction, containing all the modification.
+
+
+Read more: https://javarevisited.blogspot.com/2017/03/difference-between-first-and-second-level-cache-in-Hibernate.html#ixzz5Xu6JFPTC
+
+
+Stereotype Annotations in Spring. Spring @Component, @Repository, @Service and @Controller are Stereotype Annotations 

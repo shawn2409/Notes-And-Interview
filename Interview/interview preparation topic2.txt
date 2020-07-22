@@ -1,0 +1,36 @@
+what is class and object 
+
+can abstract implement interface
+
+can interface implement interface
+
+what is the access modifier of method
+
+what is access modifier for class
+
+what is syncronization and how does it work
+
+what is last in first out
+
+what is first in first out
+
+what hashmap works
+
+what is set
+
+what is que
+
+what is vector
+
+
+what is array and arraylist
+
+what is java bean
+
+what is entity and how to create - hibernate
+
+what init method of servlet
+
+
+
+ 

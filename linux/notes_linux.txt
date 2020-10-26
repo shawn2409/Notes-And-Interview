@@ -26,3 +26,9 @@ find . -type d -empty ==print directory inside directory for empty
 
 //cursor
 Hold Option  - key on Mac - to put cursor anywhere on Mac command 
+
+#find empty directory and delete
+find /Users/shawn_dtx/codebase/eclipse-workspace -type d —empty delete
+
+#show difference of two files 
+Diff /Users/shawn_dtx/git_remoteProjects/Notes-And-Interview /Users/shawn_dtx/codebase/local_notes

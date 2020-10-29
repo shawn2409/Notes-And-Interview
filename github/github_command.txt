@@ -45,3 +45,7 @@ It over rides the repo if not pull first and migrate
 
 Set up remote repo then pull first before commit and push
 
+=====
+check out branch remote
+$ git fetch or git fetch origin dev
+$ git checkout <branch>

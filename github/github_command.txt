@@ -2,6 +2,10 @@
 git branch
 git branch --show current
 
+Show current remote url map to local git
+Git -v
+
+
 Add remote url 
 The git remote add command takes two arguments:
 * A remote name, for example, origin

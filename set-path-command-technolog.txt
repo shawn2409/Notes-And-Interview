@@ -1,0 +1,9 @@
+Set your path if ng command not working - path needs to hit bin - ng
+1. vi $HOME/.bash_profile 
+    1. Esc then I to insert 
+    2. export PATH="$HOME/node_modules/@angular/cli/bin/ng:$PATH”     then :wq to save
+2. source $HOME/.bash_profile
+3. Echo $PATH
+
+export PATH="$HOME/node_modules/@angular/cli/bin/ng:$PATH”.    // ng angular command use
+export PATH=${PATH}:/usr/local/mysql/bin // sql command use 

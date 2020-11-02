@@ -1,0 +1,26 @@
+best easiest way to have someone project on your gitup
+
+github if unable to follow someone, do fork on their project so it will create repository on your gitup
+
+====================================================================================
+
+add project to existing repo
+
+simply add the existing repo workpsace url to local project and push it 
+
+
+=====================================================================================
+
+import github projects to local workspace storage
+
+make sure save projects in workspace directory, not in git directory 
+while importing from github, local destination need to change to workspace directory 
+
+================================================================================
+
+Githup eclipse -
+First time creating remote url - 
+Configure git repository - label header on top 
+Use or create repository in parent folder of project - checkmark 
+Click the middle box project 
+Then - create repository at the bottom button to create then finish 

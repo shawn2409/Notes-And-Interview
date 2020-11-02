@@ -19,9 +19,17 @@ $ git remote -v
 > origin  https://github.com/user/repo.git (fetch)
 > origin  https://github.com/user/repo.git (push)
 
+
+#add local and remote branch
+https://stackoverflow.com/questions/1519006/how-do-you-create-a-remote-git-branch
+First, you create your branch locally:
+git checkout -b <branch-name> # Create a new branch and check it out
+The remote branch is automatically created when you push it to the remote server. So when you feel ready for it, you can do:
+git push <remote-name> <branch-name>
+Where <remote-name> is typically origin,
+
 #add all file or add individual file
 #git add * or git add file.name
-
 
 #undo commit
 Git Reset
@@ -35,17 +43,11 @@ git remote -v
 git remote set-url origin https://github.com/user/repo2.git
 # Change the 'origin' remote's URL
 
-git remote -v
-# Verify new remote URL
-# origin  https://github.com/user/repo2.git (fetch)
-# origin  https://github.com/user/repo2.git (push)
-
-
 git: updates were rejected because the remote contains work that you do not have locally
 git push -f origin master  =-f force 
 It over rides the repo if not pull first and migrate
 
-=====
+====================================================================================================
 
 Set up remote repo then pull first before commit and push
 

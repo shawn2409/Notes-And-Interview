@@ -55,3 +55,13 @@ Set up remote repo then pull first before commit and push
 check out branch remote
 $ git fetch or git fetch origin dev
 $ git checkout <branch>
+
+====================================================================================================
+
+delete local and remote branch
+
+local branch - delete
+git branch -d <branch>.
+
+delete remote branch
+git push origin --delete fix/authentication

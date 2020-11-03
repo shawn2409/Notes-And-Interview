@@ -1,0 +1,19 @@
+Delimiter
+A delimiter is one or more characters that separate text strings. Common delimiters are commas (,), semicolon (;), quotes ( ", ' ), braces ({}), pipes (|), or slashes ( / \ ). When a program stores sequential or tabular data, it delimits each item of data with a predefined character.
+
+
+IO
+Different ways of Reading a text file in Java
+There are multiple ways of writing and reading a text file. this is required while dealing with many applications.
+
+There are several ways to read a plain text file in Java e.g. you can use FileReader, BufferedReader or Scanner to read a text file. Every utility provides something special e.g. BufferedReader provides buffering of data for fast reading, and Scanner provides parsing ability.
+
+We can also use both BufferReader and Scanner to read a text file line by line in Java. Then Java SE 8 introduces another Stream class java.util.stream.Stream which provides a lazy and more efficient way to read a file
+
+Note : Here usual practices of writing good code like flushing/closing streams, Exception-Handling etc, have been avoided for better understanding of codes by beginners as well
+
+Here are some of the many ways of reading files:
+
+Using BufferedReader: This method reads text from a character-input stream. It does buffering for efficient reading of characters, arrays, and lines.
+The buffer size may be specified, or the default size may be used. The default is large enough for most purposes.
+In general, each read request made of a Reader causes a corresponding read request to be made of the underlying character or byte stream. It is therefore advisable to wrap a BufferedReader around any Reader whose read() operations may be costly, such as FileReaders and InputStreamReaders. For example,

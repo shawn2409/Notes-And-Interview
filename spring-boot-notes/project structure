@@ -1,0 +1,30 @@
+spring boot project structure
+
+shawn-demo
+  (src -
+      main-
+        java -)main default internal structure of package - never change
+        
+        #package name starts here
+          com.usaa.goldcoast (corepackage)
+                   { config
+                    controller
+                    exception
+                    models
+                    repo
+                    service(pacage) - interface 
+                        impl (subpackage service) - class implement of service} sub package name
+                    
+                    #springboot main method class - just out sub package but inside core package exmaple "com.usaa.goldcoast"
+                    make sure its not inside any subpackage or bean not found error of one of the class
+                    mainSpringbootclass.java
+                    
+         #right below java package(outside java package,parallel java package)
+         resources packages - applicaiton.xml or yml files
+         
+         #test package underneed main (inside src,parralal main)
+         
+         
+                    
+          
+    

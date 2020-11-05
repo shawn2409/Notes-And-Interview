@@ -20,7 +20,7 @@ $ git remote -v
 > origin  https://github.com/user/repo.git (push)
 
 
-#add local and remote branch
+#add local and remote branch ** note master branch need to be created first in url before any other branch ***
 https://stackoverflow.com/questions/1519006/how-do-you-create-a-remote-git-branch
 First, you create your branch locally:
 git checkout -b <branch-name> # Create a new branch and check it out

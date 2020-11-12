@@ -1,3 +1,10 @@
+Interface can extended multiple interfaces but can not implement interface or abstract
+Abstract class can not extends or in general any class can not extends multple abstract or general class 
+but implement multiple interfaces
+
+
+
+
 
 Ternary Operator - ?: (use as if else condition)
 Programmers use ternary operators in C for decision making inplace of conditional statements if and else. The ternary operator is an operator that takes three arguments. The first argument is a comparison

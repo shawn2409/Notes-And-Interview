@@ -4,3 +4,7 @@ append() - It is used to add text at the end of the existence text. Here are a f
 
 What is static context?
 A static method or, block belongs to the class and these will be loaded into the memory along with the class. You can invoke static methods without creating an object. ... But static contexts(methods and blocks) doesn't have any instance they belong to the class
+
+
+what caching and cache?
+Caching (pronounced “cashing”) is the process of storing data in a cache. A cache is a temporary storage area. ... When you return to a page you've recently looked at, the browser can get those files from the cache rather than the original server, saving you time and saving the network the burden of additional traffic.

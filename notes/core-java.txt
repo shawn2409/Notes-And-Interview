@@ -3,16 +3,11 @@ Abstract class can not extends or in general any class can not extends multple a
 but implement multiple interfaces
 
 
-
-
-
 Ternary Operator - ?: (use as if else condition)
 Programmers use ternary operators in C for decision making inplace of conditional statements if and else. The ternary operator is an operator that takes three arguments. The first argument is a comparison
 
 
 Static can’t be declare on variable inside a method
-
-
 
 Sdlc - 5 phase
 Planning
@@ -20,3 +15,11 @@ Designing
 Implementing
 Testing 
 Deploying to production
+
+
+Upcasting-Vs-Downcasting
+Upcasting: Upcasting is the typecasting of a child object to a parent object. Upcasting can be done implicitly. Upcasting gives us the flexibility to access the parent class members but it is not possible to access all the child class members using this feature. Instead of all the members, we can access some specified members of the child class. For instance, we can access the overridden methods.
+Downcasting: Similarly, downcasting means the typecasting of a parent object to a child object. Downcasting cannot be implicitly.
+
+https://www.geeksforgeeks.org/upcasting-vs-downcasting-in-java/
+

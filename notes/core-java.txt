@@ -22,4 +22,14 @@ Upcasting: Upcasting is the typecasting of a child object to a parent object. Up
 Downcasting: Similarly, downcasting means the typecasting of a parent object to a child object. Downcasting cannot be implicitly.
 
 https://www.geeksforgeeks.org/upcasting-vs-downcasting-in-java/
-
+// Upcasting 
+        Parent p = new Child(); 
+        p.name = "GeeksforGeeks";
+        // Downcasting Explicitly 
+        Child c = (Child)p; 
+with downcasting can able to inherit parents properties or variables.         
+ 
+        
+        
+        
+        

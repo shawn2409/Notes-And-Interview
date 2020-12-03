@@ -11,3 +11,11 @@ public class Application {
 github project for springboot rest api json - project sturecture format
 springbootcrudrestful-working-projectstructure
 
+====
+consume - consume use on postMapping because it takes data from user and consume json data file
+produce = produce use on getMapping because it takes data from db and produce json data file .
+===
+client - front end, angular, resttemplate api
+server - backend spring boot
+
+

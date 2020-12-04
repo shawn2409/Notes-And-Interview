@@ -1,0 +1,3 @@
+**
+Error Parameter 0 of constructor in Service required a bean of type Configuration that could not be found
+solution: pom.xml needs to be loaded that is working on project, copy paste all dependencies, should work if all annotation of layers are correct

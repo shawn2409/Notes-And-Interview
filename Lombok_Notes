@@ -1,0 +1,17 @@
+@Data
+@Builder
+@NoArgConstructor
+@AllArgConstructor
+@Entity
+@Table(name = "marvel_character")
+public class MarvelCharacter {
+    @Id
+    @Column(name = "hero_name")
+    private String heroName;
+    @Column(name = "first_name")
+    private String firstName;
+    @Column(name = "last_name")
+    private String lastName;
+}
+
+https://dimitr.im/loading-initial-data-with-spring

@@ -1,0 +1,16 @@
+
+4 steps to get start with angular, install angular and project, if npm install does not work then run with ad command or admin command sudo npm, example sudo npm install
+
+npm install -g @angular/cli
+ng new my-dream-app
+cd my-dream-app
+ng serve
+
+===============
+
+after import angular project run this command so default library or component used for complie or build the project
+- npm install or sudo npm install
+======================
+install angular project if install fail
+sudo npm 
+===================

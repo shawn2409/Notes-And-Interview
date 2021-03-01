@@ -1,2 +1,5 @@
 stop server
 commadn +c
+
+
+ng generate component

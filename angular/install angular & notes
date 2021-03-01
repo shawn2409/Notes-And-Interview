@@ -14,3 +14,5 @@ after import angular project run this command so default library or component us
 install angular project if install fail
 sudo npm 
 ===================
+//create component
+ng generate component details
